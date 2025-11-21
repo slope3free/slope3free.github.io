@@ -1,0 +1,2079 @@
+
+<!DOCTYPE html><html lang="en-gb" data-theme="graphite-green"><head>
+
+  <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+  <title>Squish Run</title>
+
+
+  <meta name="robots" content="noindex,nofollow" />
+
+
+  <meta name="description" content="Squish Run - Play online for free. Safe, school-friendly interactive entertainment that runs smoothly on classroom computers and Chromebooks, offering students quick, engaging experiences during downtime.">
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="../assets/css/style.css?v=5b46c70a93f1295d23bcdbcaa3c0e6b3">
+
+
+
+
+
+  </head>
+
+
+
+  <body>
+
+
+
+    <header class="header" id="js-header">
+
+      <div>
+
+        <a class="logo" href="#">Slope 3</a>
+
+        <nav class="navbar js-navbar">
+
+
+
+          <ul class="navbar__menu">
+
+            <li><a href="/" target="_self">Home</a></li>
+            <li><a href="/tags.html" target="_self">Tags</a></li>
+
+          </ul>
+
+
+        </nav>
+
+      </div>
+
+
+
+      </header>
+
+
+
+      <main>
+
+
+        <article class="post">
+
+          <header class="post__inner post__header--centered">
+
+            <h1 class="h0 post__title">Squish Run</h1>
+          </header>
+
+
+        <div class="post__body">
+
+          <div class="post__inner">
+
+            <div class="post__entry">
+
+              <div id="container">
+
+                <div class="post__iframe">
+
+
+
+                  <iframe loading="lazy" width="1060" height="650" onclick="goFullscreen('embededGame')" loading="lazy" src="https://classroom2111.github.io/g2/class-664" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="true" allowfullscreen="allowfullscreen"></iframe>
+
+
+
+
+                  </div>
+
+                  <div align="center"><button class="button">Fullscreen</button></div>
+
+               </div>
+
+               <p>
+
+
+
+
+            <script>
+
+
+
+                      var button = document.querySelector('#container .button');
+        button.addEventListener('click', fullscreen);
+        // when you are in fullscreen, ESC and F11 may not be trigger by keydown listener. 
+        // so don't use it to detect exit fullscreen
+        document.addEventListener('keydown', function (e) {
+          console.log('key press' + e.keyCode);
+        });
+        // detect enter or exit fullscreen mode
+        document.addEventListener('webkitfullscreenchange', fullscreenChange);
+        document.addEventListener('mozfullscreenchange', fullscreenChange);
+        document.addEventListener('fullscreenchange', fullscreenChange);
+        document.addEventListener('MSFullscreenChange', fullscreenChange);
+
+        function fullscreen() {
+          // check if fullscreen mode is available
+          if (document.fullscreenEnabled || 
+            document.webkitFullscreenEnabled || 
+            document.mozFullScreenEnabled ||
+            document.msFullscreenEnabled) {
+            
+            // which element will be fullscreen
+            var iframe = document.querySelector('#container iframe');
+            // Do fullscreen
+            if (iframe.requestFullscreen) {
+              iframe.requestFullscreen();
+            } else if (iframe.webkitRequestFullscreen) {
+              iframe.webkitRequestFullscreen();
+            } else if (iframe.mozRequestFullScreen) {
+              iframe.mozRequestFullScreen();
+            } else if (iframe.msRequestFullscreen) {
+              iframe.msRequestFullscreen();
+            }
+          }
+          else {
+            document.querySelector('.error').innerHTML = 'Your browser is not supported';
+          }
+        }
+
+        function fullscreenChange() {
+          if (document.fullscreenEnabled ||
+               document.webkitIsFullScreen || 
+               document.mozFullScreen ||
+               document.msFullscreenElement) {
+            console.log('enter fullscreen');
+          }
+          else {
+            console.log('exit fullscreen');
+          }
+          // force to reload iframe once to prevent the iframe source didn't care about trying to resize the window
+          // comment this line and you will see
+          var iframe = document.querySelector('iframe');
+          iframe.src = iframe.src;
+        }
+
+
+    </script>
+
+
+    </p>
+
+    <!-- <p>Description</p> -->
+
+    </div>
+
+
+
+
+<footer class="post__footer">
+
+
+
+
+
+
+
+</footer>
+
+
+
+</div>
+
+
+</div> <!-- end post__body -->
+
+
+
+</article>
+
+
+  <div class="section post__related">
+
+      <div class="wrapper">
+
+        <h3 class="h4 section__title">Popular</h3>
+
+        <div class="card-container card-container--col6">
+
+
+
+          
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-364.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-364.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-447.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-447.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-366.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-366.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-404.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-404.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-459.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-459.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-461.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-461.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-453.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-453.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-438.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-438.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-347.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-347.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-506.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-506.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-436.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-436.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-751.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-751.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-485.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-485.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-684.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-684.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-394.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-394.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-588.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-588.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-641.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-641.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-399.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-399.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-403.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-403.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-437.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-437.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-505.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-505.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-826.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-826.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-586.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-586.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-472.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-472.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-501.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-501.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-419.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-419.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-426.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-426.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-420.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-420.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-511.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-511.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-464.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-464.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-318.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-318.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-314.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-314.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-828.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-828.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-393.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-393.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-601.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-601.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-351.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-351.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+        
+
+        </div>
+
+
+      </div>
+
+  </div>
+
+  <div class="section post__related">
+
+      <div class="wrapper">
+
+        <h3 class="h4 section__title">You may also like</h3>
+
+        <div class="card-container card-container--col6">
+
+
+
+          
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-394.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-394.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-571.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-571.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-116.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-116.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-87.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-87.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-355.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-355.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-1008.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-1008.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-1049.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-1049.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-208.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-208.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-481.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-481.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-880.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-880.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-1034.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-1034.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-283.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-283.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-427.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-427.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-568.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-568.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-995.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-995.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-828.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-828.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-1087.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-1087.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-765.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-765.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-112.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-112.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-292.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-292.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-51.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-51.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-1058.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-1058.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-220.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-220.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+
+
+
+
+        <article class="card">
+
+          <div class="card__image">
+
+            <article class="card"><div class="card__image">
+
+              <img src="https://classroom2111.github.io/img/class-349.png"  >
+
+            </div>
+
+              <div class="card__content card__content--no-footer">
+
+                <h2 class="card__title"><a href="/class/class-349.html" class="invert"> </a></h2>
+   
+
+              </div>
+
+            </article>
+
+
+          </div>
+
+        </article>
+
+
+
+        
+
+        </div>
+
+
+      </div>
+
+  </div>
+
+
+
+  </main>
+
+
+
+  <footer class="footer section section--lightest">
+
+
+    <div class="footer__inner"><a class="logo footer__logo" href="#">Slope 3</a>
+
+      <!-- <div class="footer__copyright"><p>Play free</p></div> -->
+
+      <!-- <div class="footer__nav"><ul class="footer__nav"><li><a href="#" target="_self">Home</a></li><li><a href="#" target="_self">Privacy Policy</a></li><li><a href="#" target="_self">Contact Us</a></li></ul></div> -->
+
+  </div>
+
+
+
+
+
+  </footer>
+
+
+
+
+
+  <script>window.publiiThemeMenuConfig = {    
+      mobileMenuMode: 'sidebar',
+      animationSpeed: 300,
+      submenuWidth: 'auto',
+      doubleClickTime: 500,
+      mobileMenuExpandableSubmenus: true, 
+      relatedContainerForOverlayMenuSelector: '.navbar',
+   };</script><script>var images = document.querySelectorAll('img[loading]');
+
+      for (var i = 0; i < images.length; i++) {
+         if (images[i].complete) {
+               images[i].classList.add('is-loaded');
+         } else {
+               images[i].addEventListener('load', function () {
+                  this.classList.add('is-loaded');
+               }, false);
+         }
+      }</script></body></html>
